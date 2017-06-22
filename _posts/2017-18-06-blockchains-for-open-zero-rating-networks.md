@@ -107,9 +107,12 @@ Reaching an agreement on the choice of a public blockchain would also require ne
 
 ## Conclusion
 
-Edge Cached blockchain nodes can prove to be an economical, technically feasible and yet open entry point for users who have limited or no access to the Internet. Network providers can ensure that their costs are kept under control, and users are incentivized for choosing their network.
+Public blockchains as a medium to deliver content to zero-rating network users will remove the threats of central administration. Such a network will not replace the Internet, but act as an entry point for users to the Internet. At the same time, the limitations of such a blockchain powered network, would incentivize users to move to the open Internet whenever accessible/affordable.
+
+Edge Cached blockchain nodes (especially readonly nodes) can prove to be an economical, technically feasible and yet open entry point for users who have limited or no access to the Internet. Network providers can ensure that their costs are kept under control, and users are incentivized for choosing their network.
 
 ### References
+
 1. [Is Connectivity a Human Right?](https://scontent-sit4-1.xx.fbcdn.net/v/t39.2365-6/12057105_1001874746531417_622371037_n.pdf?oh=62fe509ef2d093c8d64f77be706d8816&oe=599FCF27)
 2. [Facebook And 6 Phone Companies Launch Internet.org To Bring Affordable Access To Everyone](https://techcrunch.com/2013/08/20/facebook-internet-org/)
 3. [Critics on Facebook's Internet.org](http://mashable.com/2015/05/19/critics-facebook-internet/#ZiEAMzYx1iqi)

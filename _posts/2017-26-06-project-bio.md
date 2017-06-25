@@ -13,7 +13,10 @@ comments: true
 
 # Wasabi
 
-
+| Project URL | [https://github.com/hexeight/wasabi](https://github.com/hexeight/wasabi) |
+|-------------|--------------------------------------------------------------------------|
+| Description | A minimal command-line tool to help start building Dapps for Ethereum    |
+| Status      | In progress                                                              |
 
 I've had my share of trouble getting started with building Distributed apps (Dapps) on Ethereum. There are a bunch of frameworks out there like [this](https://truffleframework.com) and [this](https://github.com/EMBARK) that help you get started immediately, but the frameworks did way too much by themselves. I wanted to understand every step involved in deploying contracts, generating their ABIs, and using them in Dapps through JSON RPC.
 

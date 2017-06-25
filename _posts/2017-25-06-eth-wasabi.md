@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Wasabi - For starters"
-date:   2016-04-06
+date:   2017-25-06
 excerpt: "A minimal command line tool to help me start building Dapps on Ethereum."
 project: true
 tag:

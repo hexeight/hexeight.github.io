@@ -5,7 +5,10 @@ date:   2017-25-06
 excerpt: "A minimal command line tool to help me start building Dapps on Ethereum."
 project: true
 tag:
-- 
+- smart contract
+- ethereum
+- wasabi
+- library
 comments: true
 ---
 

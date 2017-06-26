@@ -32,7 +32,7 @@ disqus_shortname:   "0x8"
 # if you don't have any of social below, comment the line.
 #google:
   #plus:            #username
-  analytics:        UA-101692090-1
+  analytics:        "UA-101692090-1"
   #verify:
   #ad-client:
   #ad-slot:

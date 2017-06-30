@@ -8,7 +8,7 @@ comments: false
     
 <center>Experiments with distributed, decentralized networks.</center>
 
-Recent progress in distributed ledgers, filesystems and networks got me interested in the possiblities of a truely decentralized computing network. Hexeight (0x8) is where I plan to archive my experiments and thoughts that align with these possibilities. Not every project here might make good business sense. My intention here is to learn through experimentation.
+Recent progress in distributed ledgers, filesystems and networks got me interested in the possiblities of a truely decentralized computing network. [0x8](http://0x8.in) (hexeight) is where I plan to archive my experiments and thoughts that align with these possibilities. Not every project here might make good business sense. My intention here is to learn through experimentation.
 
 I welcome anyone willing to contribute with pull requests.
 

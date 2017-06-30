@@ -25,6 +25,10 @@ These democratic networks, many of which rely on consensus can add incredible va
 >Democracy cannot succeed unless those who express their choice are prepared to choose wisely. The real safeguard of democracy, therefore, is education.
 > \- Franklin D. Roosevelt
 
+## Get in touch
+
+Got an idea or wish to share your thoughts? Get in touch on twitter [@omtalk](https://twitter.com/omtalk) or write to me on `om [at] 0x8 [dot] in`.
+
 #### References
 1. [PayPal phishing scam: victims asked for selfie with credit card](http://www.ibtimes.com/paypal-phishing-scam-victims-asked-take-selfie-credit-card-id-2553540)
 2. [Top banking executives fall victim to phony email prank](http://www.theaustralian.com.au/business/wall-street-journal/lloyd-blankfein-michael-corbat-fall-for-phishing-email-prank/news-story/b893f0adfcc16edbe8286240be5a43d1)

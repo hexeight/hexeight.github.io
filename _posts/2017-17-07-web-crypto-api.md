@@ -14,22 +14,29 @@ Proof of Identity is a primary problem for any network protocol and the World Wi
 
 Delegated authentication protocols such as OAuth while being of tremendous utility, escalate the problem of identities being centrally controlled by a select few service providers.
 
-## Cryptographic authentication
-As opposed to conventional authentication that relies on username and password combinations, cryptographic authentication for the web can rely on messages signed by users with their secrets[2].
+## Cryptographic signatures for the Web
+As opposed to conventional authentication that relies on username and password combinations, cryptographic authentication for the web can rely on messages signed by users with their secrets[2]. The signing mechanism needs to fullfil the following two requirements.
 
+1. Allow users to sign challenges posed by webpages to prove their identity.
+2. Allow users to sign HTTP transactions that may occur through forms or XHR requests as a proof of authenticity.
+
+### Approach
 1. Users will first have to generate their keys using standardized algorithms asymmetric cryptography.
 2. Web pages can challenge the user to sign a message with their secret/private key.
 3. Web services receive the signed challenge, and parse the signature for a public key, and verify the signature against the same public key.
 
-Challenges can be used by web pages for registertion, login or even transactions.
-
- ### PGP for reference
- Users of encrypted emails are familiar with PGP (Pretty Good Privacy) for encrypting messages. 
+Challenges can be used by web pages for registertion, login or even transactions. Public keys can be substituted as usernames for services that do not require user friendly naming conventions. Services like social platforms can map usernames with public keys for a friendly authentication experience.
 
 ### Browser based interface
-HTML Inputs are key
+The standard HTML input field can be used as a base to build the signature component.
+
+```
+<input type="signature" />
+```
+On user action, the field generates a signature based on the form inputs filled by the user.
 
 ### Verification by services
+
 
 ### Third-party authentication
 

@@ -31,16 +31,44 @@ Challenges can be used by web pages for registertion, login or even transactions
 The standard HTML input field can be used as a base to build the signature component.
 
 ```
-<input type="signature" />
+<input name="sign" type="signature" />
 ```
-On user action, the field generates a signature based on the form inputs filled by the user.
+On user action, the `signature` field generates a signature based on the form inputs filled by the user.
 
 ### Verification by services
+Web services can receive HTTP form requests or XHR requests to parse the signature element in plain text for verification.
 
+```
+sendTo=omtalk
+amount=3.14159
+sign=-----BEGIN PGP SIGNATURE-----\nVersion: OpenPGP.js v2.5.10\nComment:https://openpgpjs.org\n\nwsFcBAEBCAAQBQJaSPPeCRCYcC33miZm0gAAiksQANEZS3XjrWx2Ah7v8aqs\nZXl7zURE8HPQn/9cv7M2/2bV82+1Kpnzr1\nnPhigQS4w2a7o/29jcMyrW0Bh\nI8N0R76sF3jVKiEY4YY5WJHu4HRJWi\nA9roUJRYPpvJgPAsCQgDb8HZF0v4x\nus/KJrT38xKQiCzqYbQCacqkWv/JuHCS4UA2D0RvCNy/xJeb750xJE2quNv9\nhkjffwnH49R1tzOm9zDkXtoQYxPBmrKCW8iKDbRIDSTs15kVIlBsmUEISKQN\nRH6B30rZZXulsY0dJjE6ovzsuGbR/Em8TefMu5pOzE4jvflqOu3hsVIkx1ZE\nd1/YuuJmbBy8pFWaj5efnqpSgCcCSSCAquAfXu2arh7LMD2yIO+mYrhA2gEv\n+8Yd6CrkgTRzKCE8D22qylbmlppJRPIfAutspvKvZrETcfJTpzONVUiFCjxt\nMnU7t9mn+frItQ4fBrHqfJyfNfAppIWqqnPZvr0iUsO4v2+JzlkNx/OtFjr6\nx6msgK87MzGgVzNPoLAWo054IDIWMO7YVrg2sB6NpsbtDhXAmXytloLfjcCx\nBWrl9Cpm2SWkRADg8IAB8FPnqbARdwJtlSQgG6A5v7FXwKEwA41uVkAkVyZs\nuoDEY3yri1FZF1JPlDnKT8CrKYQijkj2BXHcvDBo66hvxbalNQZvzOb02W1r\nHlBb\n=b++B\n-----END PGP SIGNATURE-----
+```
+The example uses PGP signature considering its widespread use by email messaging systems. The signature can be substitues by RSA, DSA or EC signatures as well.
 
 ### Third-party authentication
+Host services can procure signed contracts from users to obtain or delegate access to third-party services. Contracts shall be signed within scope of the host service. These contracts can then be forwarded to the third-party service for token generation.
+
+```
+host: 0x8.in
+delegate: twitter.com
+token: -----BEGIN PGP SIGNATURE-----\nVersion: OpenPGP.js v2.5.10\nComment:https://openpgpjs.org\n\nwsFcBAEBCAAQB.....
+```
 
 ## Security measures
+Transactions signed with cryptographic signatures can seem permanent in nature.
+
+1. Signed transactions need to be secured within the scope of a single host at all times.
+2. Signed transactions should not be replayable even within the scope of a single host.
+
+Additional two parameters are prepended to all information being signed by the user.
+
+```
+host: 0x8.in
+nonce: AzkiyxbYbnskb68B-1514731815897
+```
+
+- host: The root domain used by HTTP requests.
+- nonce: A random challenge previously agreed upon by the browser and the host. The challenge can have the same expiry as the browser session.
 
 ## Conclusion
 

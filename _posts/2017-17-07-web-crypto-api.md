@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cryptographic Identities for the World Wide Web"
-date: 2017-12-31
+date: 2017-12-30
 excerpt: "Centrally controlled logical identities put control in hands of web services. Users need to maintain full control of their identities, especially those that affect their social and economic credibility. Cryptographic identities can help regain this control."
 tags: [web 3.0, zero rating, free internet, blockchain]
 comments: true
@@ -71,6 +71,9 @@ nonce: AzkiyxbYbnskb68B-1514731815897
 - nonce: A random challenge previously agreed upon by the browser and the host. The challenge can have the same expiry as the browser session.
 
 ## Conclusion
+The structure of identity and content ownership on the World Wide Web can be improved with the adoption of cryptographic proofs as a standard. The approach has proved fruitful for email signatures with PGP.
+
+Moreover, cryptographic identities can provide the necessary foundation for end-to-end encryption (E2EE) required to ensure security and privacy of users of the world wide web.
 
 ## References
 1. [HTTP State Management Mechanism (rfc2109)](https://tools.ietf.org/html/rfc2109)

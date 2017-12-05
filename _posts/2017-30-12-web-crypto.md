@@ -3,7 +3,7 @@ layout: post
 title: "Cryptographic Identities for the World Wide Web"
 date: 2017-12-30
 excerpt: "Centrally controlled logical identities put control in hands of web services. Users need to maintain full control of their identities, especially those that affect their social and economic credibility. Cryptographic identities can help regain this control."
-tags: [web 3.0, crypto, oauth, authentication, keygen]
+tags: [web 3.0, crypto, oauth, authentication, keygen, webcrypto]
 comments: true
 ---
 

@@ -10,7 +10,7 @@ comments: true
 ## Overview
 Proof of Identity is a primary problem for any network protocol and the World Wide Web (HTTP) is no different. Introduction of the state management RFC in 1997<sup><a href="https://tools.ietf.org/html/rfc2109" target="_blank">[1]</a></sup> led to common use of Cookie headers to maintain a state of identity in HTTP sessions. These identities have been dominantly powered by logical authentication mechanisms. The world wide web has progressed far ahead in its adoption of identities that are authenticated by trusted delegates. These identities still aren't universal over the world wide web. While these identities inter-operate, there's isn't a single central authority that controls these identities. To remain aligned with the philosophy of the open web, there shouldn't be such a centralized entity. Here we discuss the possibility of extending cryptographic identities in the way they are being used in Distributed Ledger Technologies (popularly known as Blockchains), while keeping in mind the expected operational simplicity for an Internet user. Such identities would consistently keep the user in control and can be utilized by modern age applications to extend services with end-to-end encryption.
 
-Considering the deprecation of the proposed `keygen` element as part of the HTML5 specification<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen#Browser_compatibility">[2]</a>, we discuss a ground up approach for cryptographic signatures for authentication on the web.
+Considering the deprecation of the proposed `keygen` element as part of the HTML5 specification<sup><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen#Browser_compatibility">[2]</a></sup>, we discuss a ground up approach for cryptographic signatures for authentication on the web.
 
 
 ## Cryptographic signatures for the Web
@@ -74,8 +74,9 @@ nonce: AzkiyxbYbnskb68B-1514731815897
 ## Conclusion
 The structure of identity and content ownership on the World Wide Web can be improved with the adoption of cryptographic proofs as a standard. The approach has proved fruitful for email signatures with PGP.
 
-Moreover, cryptographic identities can provide the necessary foundation for end-to-end encryption (E2EE) required to ensure security and privacy of users of the world wide web.
+Moreover, cryptographic identities can provide the necessary foundation for end-to-end encryption (E2EE) required to ensure security and privacy of users of the world wide web. Further, the experimental Web Crypto API<sup><a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API">[3]</a></sup> could be leveraged to standardize cryptographic algorithms paired with a browser based key store interface.
 
 ## References
 1. [HTTP State Management Mechanism (rfc2109)](https://tools.ietf.org/html/rfc2109)
 2. [Keygen browser compatibility](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen#Browser_compatibility)
+3. [Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API)

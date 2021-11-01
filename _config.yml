@@ -1,11 +1,11 @@
 # Site
 title:              '0x8'
-bio:                'Experimenting with distributed, decentralized networks'
-description:        "Democracy cannot succeed unless those who express their choice are prepared to choose wisely. The real safeguard of democracy, therefore, is education - Franklin D. Roosevelt"
+bio:                'Experiments with the cloud, decentralization and federation.'
+description:        ""
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
-background:         'assets/img/thank-you-for-this-nasa.jpg'
+logo:               'assets/img/hexeight.svg'
+background:         ''
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://0x8.in
@@ -40,7 +40,7 @@ google:
 #email:
 twitter:            omtalk
 facebook:           omkarkhair
-github-url:         hexeight
+github-url:         omkarkhair
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
